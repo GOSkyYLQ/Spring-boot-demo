@@ -8,7 +8,7 @@ import com.imooc.controller.interceptor.OneInterceptor;
 import com.imooc.controller.interceptor.TwoInterceptor;
 
 @Configuration
-public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
+public class WebMvcConfigure extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
